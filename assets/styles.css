@@ -1,0 +1,411 @@
+/*index.html*/
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none ;
+}
+.max-width{
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
+}
+.home-navbar{
+    position: fixed;
+    width: 100%;
+    /*padding: 30px 0;*/padding:15px 0;
+    background-color: crimson;
+    font-family: 'Ubuntu',sans-serif;
+}
+.home-navbar .max-width{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.home-navbar .logo a
+{
+    color: #fff;
+    font-size: 35px;
+    font-weight: 600;
+    /*padding-left: 200px;*/
+}
+.home-navbar .menu li{
+    list-style: none;
+    display: inline-block;
+}
+.home-navbar .menu li a{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 25px;
+} 
+.home-navbar .menu li a:hover
+{
+    color:lightgrey;
+    transition: 0.3s ease;
+}
+.home
+{
+    display: flex;
+    background: url("/images/home.png");
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    color:#fff;
+    min-height: 500px;
+    font-family:'Ubuntu',sans-serif;
+}
+.home .max-width{
+    margin:auto 0 auto 40px;
+    padding-left: 250px;
+}
+
+.text-1 {
+    font-size: 27px;
+}
+.text-2{
+    font-size: 75px;
+    font-weight: 600;
+    margin-left: -3px;
+}
+.text-2 span{
+    color: lightblue;
+}
+.text-3{
+    font-size: 40px;
+}
+
+/*about.html*/
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none ;
+}
+.about-home
+{
+    display: flex;
+    background: url("/images/about.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    color:#fff;
+    min-height: 500px;
+    font-family:'Ubuntu',sans-serif;
+}
+
+.about-navbar{
+    position: fixed;
+    width: 100%;
+    /*padding: 30px 0;*/padding:15px 0;
+    background-color: burlywood;
+    font-family: 'Ubuntu',sans-serif;
+}
+.about-navbar .max-width{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.about-navbar .logo a
+{
+    color: #fff;
+    font-size: 35px;
+    font-weight: 600;
+    /*padding-left: 200px;*/
+}
+.about-navbar .menu li{
+    list-style: none;
+    display: inline-block;
+}
+.about-navbar .menu li a{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 25px;
+} 
+.about-navbar .menu li a:hover
+{
+    color:brown;
+    transition: 0.3s ease;
+}
+.about-home .about-max-width{
+    margin:auto 0 auto 40px;
+    padding-left: 60px;
+}
+.about-text {
+    font-size: 27px;
+}
+
+img{
+    width: 600px;
+    height: 300px;
+    margin-left: 300px;
+    margin-top: 220px;
+}
+/*qualification.html*/
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none ;
+}
+.qualification-home
+{
+    display: flex;
+    background: url("/images/about.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.qualification-navbar{
+    position: fixed;
+    width: 100%;
+    /*padding: 30px 0;*/padding:15px 0;
+    background-color: burlywood;
+    font-family: 'Ubuntu',sans-serif;
+}
+.qualification-navbar .max-width{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.qualification-navbar .logo a
+{
+    color: #fff;
+    font-size: 35px;
+    font-weight: 600;
+    /*padding-left: 200px;*/
+}
+.qualification-navbar .menu li{
+    list-style: none;
+    display: inline-block;
+}
+.qualification-navbar .menu li a{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 25px;
+} 
+.qualification-navbar .menu li a:hover
+{
+    color:brown;
+    transition: 0.3s ease;
+}
+.qualification-home .qualification-max-width{
+    margin: 90px 0 auto 30px;
+    padding-left: 550px;
+}
+.qualification-text {
+    color: #fff;
+    font-size: 22px;
+}
+
+/*skills.html*/
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none ;
+}
+.skills-home
+{
+    display: flex;
+    background: url("/images/skills.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.skills-navbar{
+    position: fixed;
+    width: 100%;
+    /*padding: 30px 0;*/padding:15px 0;
+    background-color: whitesmoke;
+    font-family: 'Ubuntu',sans-serif;
+}
+.skills-navbar .max-width{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.skills-navbar .logo a
+{
+    color: grey;
+    font-size: 35px;
+    font-weight: 600;
+    /*padding-left: 200px;*/
+}
+.skills-navbar .menu li{
+    list-style: none;
+    display: inline-block;
+}
+.skills-navbar .menu li a{
+    color: grey;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 25px;
+} 
+.skills-navbar .menu li a:hover
+{
+    color:black;
+    transition: 0.3s ease;
+}
+.skills-home .skills-max-width{
+    margin: 90px 0 auto 30px;
+    padding-left: 50px;
+}
+.skills-text {
+    color: #fff;
+    font-size: 22px;
+}
+
+/*Contact.html*/
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none ;
+}
+.contact-home
+{
+    display: flex;
+    background: url("/images/contact.webp");
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.contact-navbar{
+    position: fixed;
+    width: 100%;
+    /*padding: 30px 0;*/padding:15px 0;
+    background-color: rgb(81, 81, 117);
+    font-family: 'Ubuntu',sans-serif;
+}
+.contact-navbar .max-width{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contact-navbar .logo a
+{
+    color: #fff;
+    font-size: 35px;
+    font-weight: 600;
+    /*padding-left: 200px;*/
+}
+.contact-navbar .menu li{
+    list-style: none;
+    display: inline-block;
+}
+.contact-navbar .menu li a{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 25px;
+} 
+.contact-navbar .menu li a:hover
+{
+    color:black;
+    transition: 0.3s ease;
+}
+.contact-home{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container {
+    color: white;
+    width: 470px;
+    padding: 30px;
+    border: 1px solid #eeeeee;
+    border-radius: 10px;
+    position: flex;
+    /* Set the container's height to a specific value or use other styles as needed */
+    background-color: rgb(81, 81, 117);
+  }
+  h4{
+    margin-bottom: 10px;
+    font-size: 24px;
+    color: white;
+  }
+  input{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  textarea{
+    width: 100%;
+    padding: 10px;
+  }
+  #submit{
+    border: none;
+    background-color: rgb(197, 101, 54);
+    color: white;
+    width: 200px;
+    border-radius: 5px;
+  }
+  #submit:hover{
+    background-color: #333;
+  }
+
+  .social-icons {
+    position: absolute;
+    bottom: 13px;
+    left: 5px;
+    /* You can also add left, right, and margin properties to adjust the positioning */
+  }
+  
+/* Style all font awesome icons */
+.fa {
+    padding: 15px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+
+  .fa-instagram {
+    background: rgb(218, 80, 103);
+    color: white;
+  }
+  .social-icons i{
+    color: white;
+    position: absolute;
+  }
+  .social-icons i{
+    position: absolute;
+    bottom: -13px;
+    left: 100px;
+  }
+  i :hover{
+    opacity: 0.7;
+  }
+

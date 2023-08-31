@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>Portfolio Website</title>
+        <link rel="stylesheet" href="assets/styles.css">
+        <link rel="stylesheet" href="images">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <nav class="contact-navbar">
+            <div class="max-width">
+                <div class="logo">
+                    <a href="#">
+                        Portfo<span>lio</span>
+                    </a>
+                </div>
+                <ul class="menu">
+                    <li><a href="index.html" title="Home">Home</a></li>
+                    <li><a href="about.html" title="About">About</a></li>
+                    <li><a href="skills.html" title="Skills">Skills</a></li>
+                    <li><a href="qualification.html" title="Qualifications">Qualifications</a></li>
+                    <li><a href="contact.html" title="Contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <section class="contact-home" id="home">
+            <div class="container">
+                <h4>Get in Touch</h4>
+                <form method="post" action="" name="contact-me">
+                    <label for="fullName">Full Name:</label><br>
+                    <input type="text" name="name" placeholder="Full Name" required><br>
+                    <br>
+
+                    <label for="Mobile Number">Mobile Number:</label><br>
+                    <input type="text" name="number" placeholder="Mobile Number" pattern="[6-9]{1}[0-9]{9}" required><br>
+                    <br>
+
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="email" placeholder="Email address" pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$"><br>
+                    <br>
+
+                    <label for="subject">Subject:</label><br>
+                    <textarea id="message" name="message" rows="7" placeholder="Type your message here" required></textarea>
+                    <br>
+
+                    <input type="submit" value="send" id="submit">
+                </form>
+                <script src="assets/contact-form.js"></script>
+                    <p class="error" id="errorMessage"></p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/profile.php?id=100094085234568&mibextid=ZbWKwL" class="fa fa-facebook"></a>
+                    <a href="https://www.instagram.com/surendhar_643/" class="fa fa-instagram"></a>
+                    <i class="fa fa-github" id="git-icon" style="font-size:47px"></i>
+                </div>
+            </div>
+        </section>
+    </body>
+</html>
